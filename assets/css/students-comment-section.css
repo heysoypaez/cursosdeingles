@@ -28,7 +28,7 @@
 	.students-comment-section__item-2__companies {
 		grid-column: 1/7;
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 

@@ -4,12 +4,18 @@
 	grid-gap: 10px;
 	align-items: end;
 	width: 100%;
+	font-family: Futura, sans-serif;
 }
 
 .header__item-2 h1 {
 	font-weight: normal;
 	font-size: 18px;
 }
+
+.header li {
+	list-style-type: none;
+}
+
 
 @media screen and (min-width: 426px) {
 	.header__item-1 {
