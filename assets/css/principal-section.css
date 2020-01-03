@@ -1,0 +1,18 @@
+.principal-section {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);	
+	grid-gap: 10px;
+}
+
+.principal-section__item-1 {
+	grid-column: 1/5;
+	background: red;
+}
+
+.principal-section__item-2 {
+	display: block;
+	grid-column: 5/7;
+}
+
+.principal-section__item-2 iframe {
+}

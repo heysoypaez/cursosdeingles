@@ -1,0 +1,32 @@
+.program-details-section {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);	
+	grid-gap: 10px;
+	background: #4f4f4f;
+	color: white;
+	padding: 0 5px;
+	align-items: center;
+}
+
+.program-details-section__item-1 {
+	grid-column: 1/4;
+}
+
+.program-details-section__item-2 {
+	display: block;
+	grid-column: 4/7;
+}
+
+.program-details-section__item-2 li { 
+	font-size: 26px;
+	font-weight: 500;
+}
+
+
+.program-details-section__item-1__title {
+	font-size: 90px;
+	font-weight: 500;
+	padding-left: 20px;
+	margin-bottom: 0;
+	line-height: 1;
+}
