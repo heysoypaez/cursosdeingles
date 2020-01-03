@@ -4,15 +4,7 @@
 	grid-gap: 10px;
 }
 
-.about-us-section__item-1 {
-	grid-column: 1/4;
-}
 
-.about-us-section__item-2 {
-	display: block;
-	grid-column: 4/7;
-	background: red;
-}
 
 .about-us-section__item-1__title {
 	background: #a91b0d;
@@ -21,3 +13,26 @@
 	font-weight: 400;
 	padding-left: 20px;
 }	
+
+@media screen and (min-width: 426px) {
+	.about-us-section__item-1 {
+		grid-column: 1/4;
+	}
+
+	.about-us-section__item-2 {
+		display: block;
+		grid-column: 4/7;
+		background: red;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.about-us-section {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-gap: 10px;
+		align-items: end;
+		width: 100%;
+	}	
+}
