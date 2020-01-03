@@ -6,6 +6,8 @@
 
 
 
+
+
 .about-us-section__item-1__title {
 	background: #a91b0d;
 	color: white;
@@ -23,7 +25,12 @@
 	.about-us-section__item-2 {
 		display: block;
 		grid-column: 4/7;
-		background: red;
+	}
+
+	.about-us-section p {
+	margin-bottom: 20px;
+	line-height: 1.5;
+	font-size: 18px;
 	}
 }
 
