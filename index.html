@@ -2,9 +2,232 @@
 <html>
 <head>
 	<title>Web</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/layout-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/principal-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/about-us-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/program-details-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/our-teachers-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/improve-abilities-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/test-your-level-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/companies-trust-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/students-comment-section.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/call-to-action.css">
 </head>
 <body>
-	<h1>Titulo</h1>
+	
+	<header class="header">
+		<figure class="header__item header__item-1">
+			<img src="assets/img/logo/logo-smooth-talkers-png.png" width="200">
+		</figure>
+		<section class="header__item header__item-2">
+			<h1>Clases particulares  de inglés en santiago</h1>
+		</section>
+		<section class="header__item header__item-3">
+			<ul>
+				<li>+56987572595/223780015</li>
+				<li>info@smoothtalkers.cl</li>
+			</ul>
+		</section>
+	</header>
+
+	<main>
+		<section class="layout-section principal-section" id="mas-info">
+			<section class="principal-section__item principal-section__item-1">
+				<img src="" alt="banner full diseño">
+			</section>
+			<section class="principal-section__item principal-section__item-2">
+				
+	    <iframe
+	      id="JotFormIFrame-93096656328670"
+	      title="formulario corto"
+	      onload="window.parent.scrollTo(0,0)"
+	      allowtransparency="true"
+	      allowfullscreen="true"
+	      allow="geolocation; microphone; camera"
+	      src="https://form.jotformz.com/93096656328670"
+	      frameborder="0"
+	      style="
+	      min-width: 100%;
+	      height:549px;
+	      border:none;"
+	      scrolling="no"
+	    >
+  	  </iframe>
+    	<script type="text/javascript">
+  	    var ifr = document.getElementById("JotFormIFrame-93096656328670");
+	      if(window.location.href && window.location.href.indexOf("?") > -1) {
+	        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+	        if(ifr && get.length > 0) {
+	          var src = ifr.src;
+	          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+	          ifr.src = src;
+	        }
+	      }
+        window.handleIFrameMessage = function(e) {
+        if (typeof e.data === 'object') { return; }
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe) { return; }
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = (parseInt(args[1]) + 57) + "px";
+            console.log(iframe.style.height)
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = (window.innerHeight) + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+          case "loadScript":
+            var src = args[1];
+            if (args.length > 3) {
+                src = args[1] + ':' + args[2];
+            }
+            var script = document.createElement('script');
+            script.src = src;
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+            break;
+          case "exitFullscreen":
+            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+        };
+	      if (window.addEventListener) {
+	        window.addEventListener("message", handleIFrameMessage, false);
+	      } else if (window.attachEvent) {
+	        window.attachEvent("onmessage", handleIFrameMessage);
+	      }
+  	    </script>
+			</section>
+		</section>
+		<section class="layout-section about-us-section">
+			<section class="about-us-section__item about-us-section__item-1">
+				<h2 class="about-us-section__item-1__title">¿Quienes somos?</h2>
+				<p>Smooth Talkers es una empresa constituida en febrero del 2012, ganadores del Capital Semilla Emprendimiento durante el año 2012.</p>
+
+				<p>Nos dedicamos al entrenamiento personalizado del idioma portugués, español y clases personalizadas de inglés on-line.</p>
+				<p> Todos nuestros profesores cuentan con experiencia y acreditación en la enseñanza de idiomas, los cuales se destacan especialmente por su dedicación y método pedagógico. </p>
+				<p>Dictamos clases en distintas modalidades: clases particulares, clases grupales, clases franquicia SENCE, clases para niños, preparación para TOELF/IELTS, clases con enfoque al inglés de negocios, preparación para entrevistas laborales en inglés y clases online.</p>
+			</section>
+
+			<section class="about-us-section__item about-us-section__item-2">
+				<img src="assets/img/sobre-nosotros-smoothtalkers.jpg" width="100%" />
+			</section>
+		</section>
+				<section class="call-to-action">
+			<a href="./index.html#mas-info">
+				<img src="assets/img/mas-información.PNG" height="100">
+			</a>
+		</section>
+		<section class="layout-section program-details-section">
+			<section class="program-details-section__item program-details-section__item-1">
+				<h2 class="program-details-section__item-1__title"> Programas ajustados a tus necesidades </h2>
+			<a href="./index.html#mas-info">
+				<img src="assets/img/mas-información.PNG" height="100" class="button-more-info">
+			</a>
+			</section>
+			<section class="program-details-section__item program-details-section__item-2">
+				<ul>
+					<li>INGLÉS GENERAL / NEGOCIOS</li>
+					<li>INGLÉS CON FINES ESPECÍFICOS </li>
+					<li>EXÁMENES INTERNACIONALES (TOEFL, IELTS Y FCE)</li>
+					<li>PREPARACIÓN PARA ENTREVISTAS LABORALES Y ACADÉMICAS</li>
+					<li>INGLÉS PARA NIÑOS Y ADOLESCENTES</li>
+				</ul>
+			</section>
+		</section>
+		<section class="layout-section our-teachers-section">
+			<section class="our-teachers-section__item our-teachers-section__item-1">
+				<iframe width="100%" height="470" src="https://www.youtube.com/embed/wIsTAQ6-p-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+			<section class="our-teachers-section__item our-teachers-section__item-2">
+				<h2 class="our-teachers-section__item-2__title"><mark>Conoce a nuestros profesores</mark></h2>
+				<p>In irure elit ut dolor sit consectetur quis voluptate incididunt sed commodo irure dolor minim dolor sit eu sint esse non pariatuolor proident ad commodo duis amet consectetur consequat tempor aute magna aute ea nostrud in culplpa dolor ut velit proident exercitation voluptate sed dolor velit eu ut labore irure sunt cillum non dolor ad consequat aliquip do exercitation et incididunt in deserunt est dolore sit nulla ut nulla incididunt ut irure amet reprehenderit cupidatat excepteur incididunt enim eiusmod pariatur fugiat amet occaecat est sed laboris aliquip pariatur id ea exercitation do duis officia in sunt irure excepteur excepteur officia in aliqua consectetur officia qui quis consectetur deserunt ad proident sit est consequat dolore fugiat officia magna non ut occaecat dolor dolor fugiat dolor.</p>
+			</section>
+
+		</section>
+		<section class="layout-section improve-abilities-section">
+			<section class="improve-abilities-section__item improve-abilities-section__item-1">
+				<h3 class="improve-abilities-section__item-1__title">Perfecciona tus habilidades</h3>
+			</section>
+			<section class="improve-abilities-section__item improve-abilities-section__item-2">
+				<ul>
+					<li>Escritura</li>
+					<li>Comprensión lectora</li>
+					<li>Comprensión auditiva</li>
+					<li>Fluidez y pronunciación</li>
+				</ul>
+			</section>
+		</section>
+		<section class="layout-section test-your-level-section">
+			<section class="test-your-level-section__item test-your-level-section__item-1">
+				<h3 class="test-your-level-section__item-1__title">Niveles</h3>
+				<ul>
+					<li>TEST DE EVALUACIÓN ONLINE GRATIS +</li>
+					<li>EVALUACIÓN PRESENCIAL U ONLINE PERSONALIZADA</li>
+					<li>PARA DEFINIR EL NIVEL DE INGLÉS JUNTO CON LAS HABILIDADES QUE SE DEBEN REFORZAR (LISTENING, SPEAKING, READING Y WRITING)</li>
+				</ul>
+			</section>
+			 <section class="test-your-level-section__item test-your-level-section__item-2">
+			 		<img src="assets/img/niveles-de-idioma.png" alt="test-your-level" />
+			 </section> 
+		</section>
+		<section class="call-to-action">
+			<a href="./index.html#mas-info">
+				<img src="assets/img/mas-información.PNG" height="100">
+			</a>
+		</section>
+		<section class="layout-section companies-trust-section">
+			<section class="companies-trust-section__item companies-trust-section__item-1">
+				<h3 class="companies-trust-section__item-1__title"><mark>Empresas que confían en nosotros</mark></h3>
+			</section>
+			<section class="companies-trust-section__item-2 companies-trust-section__item-2__companies">
+				<figure class="companies-trust-section_item companies-trust-section_item-1">
+					<img src="assets/img/companies/bci.png" width="150" />
+				</figure>
+				<figure class="companies-trust-section_item companies-trust-section_item-1">
+					<img src="assets/img/companies/gmo.png" width="150" />
+				</figure>
+				<figure class="companies-trust-section_item companies-trust-section_item-1">
+					<img src="assets/img/companies/fresenius.png" width="150" />
+				</figure>
+				<figure class="companies-trust-section_item companies-trust-section_item-1">
+					<img src="assets/img/companies/teck.png" width="150" />
+				</figure>
+			</section>
+		</section>
+		<section class="layout-section students-comment-section"></section>	
+		<section class="call-to-action">
+		<a href="./index.html#mas-info">
+			<img src="assets/img/mas-información.PNG" height="100">
+		</a>
+		</section>
+	</main>
+	<footer class="footer">
+		
+	</footer>
+
 
 </body>
 </html>
