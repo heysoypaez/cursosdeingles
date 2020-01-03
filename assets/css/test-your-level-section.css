@@ -30,7 +30,6 @@
 	}
 
 	.test-your-level-section__item-2 {
-		display: block;
 		grid-column: 4/7;
 		justify-self: end;
 	}
@@ -43,8 +42,19 @@
 		grid-template-rows: auto;
 		grid-gap: 10px;
 		align-items: end;
-		width: 100%;
 	}	
+
+	.test-your-level-section img {
+		max-width: 90vw;
+	}
+
+	.test-your-level-section p {
+		max-width: 96vw
+	}
+
+	.test-your-level-section__item-1 {
+		max-width: 96vw
+	}
 
 	.test-your-level-section__item-1__title {
 		font-size: 50px;
@@ -56,5 +66,10 @@
 	.test-your-level-section__item-1 li { 
 		font-size: 18px;
 		font-weight: 500;
+		list-style-type: none;
 	}
+
+		.test-your-level-section__item-1 ul , .test-your-level-section__item-1 h3 {
+			padding-left: 0;
+		}
 }

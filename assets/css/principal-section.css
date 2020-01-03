@@ -96,4 +96,12 @@
 		max-width: 100%;
 		background-position: center;
 	}	
+	.principal-section ul {
+		padding-left: 0px
+	}
+
+	.principal-section li {
+		line-height: 1.2;
+		list-style-type: none;
+	}
 }

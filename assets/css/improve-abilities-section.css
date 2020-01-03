@@ -6,7 +6,6 @@
 	color: white;
 	padding: 0 5px;
 	align-items: center;
-	max-height: 200px;
 }
 
 .improve-abilities-section__item-2 li { 
@@ -22,6 +21,12 @@
 }
 
 @media screen and (min-width: 426px) {
+
+	.improve-abilities-section {
+		max-height: 200px;
+	}
+
+
 	.improve-abilities-section__item-1 {
 	grid-column: 1/4;
 	}
@@ -38,8 +43,7 @@
 }
 
 @media screen and (max-width: 425px) {
-	.improve-abilities-level-section {
-		display: grid;
+	.improve-abilities-section {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
 		grid-gap: 10px;
