@@ -7,6 +7,15 @@
 	color: white;
 }
 
+.footer a {
+	color: white;
+	margin: 16px 0;
+}
+
+.footer section {
+	margin: 16px 0;	
+}
+
 @media screen and (max-width: 425px) {
 	.footer {
 		grid-template-columns: 1fr;
